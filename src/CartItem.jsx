@@ -33,6 +33,7 @@ const CartItem = ({ onContinueShopping }) => {
     );
   };
 
+
   const handleDecrement = (item) => {
    if (item.quantity > 1){
     dispatch(
